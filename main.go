@@ -13,6 +13,7 @@ func main() {
 	/*removeTargetFromArray()*/
 	/*findTheIndexOfTheFirstOccurrenceInAString()*/
 	/*searchInsertPosition()*/
+	println(utils.LengthOfLastWord("  Go  language  makes  slice per space  "))
 }
 
 func checkReverseNumbers() {
