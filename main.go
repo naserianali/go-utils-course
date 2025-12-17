@@ -8,7 +8,8 @@ import (
 func main() {
 	/*checkReverseNumbers()*/
 	/*checkRomanToInt()*/
-	longestCommonPrefix()
+	/*longestCommonPrefix()*/
+	checkBracketAreValid()
 }
 
 func checkReverseNumbers() {
@@ -26,4 +27,11 @@ func longestCommonPrefix() {
 	strs2 := []string{"dog", "racecar", "car"}
 	println(utils.LongestCommonPrefix(strs1))
 	println(utils.LongestCommonPrefix(strs2))
+}
+func checkBracketAreValid() {
+	fmt.Println(utils.CheckValidSigns("()"))
+	fmt.Println(utils.CheckValidSigns("()[]{}"))
+	fmt.Println(utils.CheckValidSigns("(]"))
+	fmt.Println(utils.CheckValidSigns("([])"))
+	fmt.Println(utils.CheckValidSigns("([)]"))
 }
