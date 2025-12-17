@@ -11,6 +11,8 @@ func main() {
 	/*longestCommonPrefix()*/
 	/*checkBracketAreValid()*/
 	/*removeTargetFromArray()*/
+	/*findTheIndexOfTheFirstOccurrenceInAString()*/
+	/*searchInsertPosition()*/
 }
 
 func checkReverseNumbers() {
@@ -39,4 +41,12 @@ func checkBracketAreValid() {
 func removeTargetFromArray() {
 	nums := []int{3, 2, 2, 3}
 	utils.RemoveTargetFromArray(nums, 2)
+}
+
+func findTheIndexOfTheFirstOccurrenceInAString() {
+	println(utils.FindTheIndexOfTheFirstOccurrenceInAString("leetcode", "leeto"))
+}
+
+func searchInsertPosition() {
+	println(utils.SearchInsertPosition([]int{1, 3, 5, 6}, 4))
 }
