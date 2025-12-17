@@ -9,7 +9,8 @@ func main() {
 	/*checkReverseNumbers()*/
 	/*checkRomanToInt()*/
 	/*longestCommonPrefix()*/
-	checkBracketAreValid()
+	/*checkBracketAreValid()*/
+	/*removeTargetFromArray()*/
 }
 
 func checkReverseNumbers() {
@@ -34,4 +35,8 @@ func checkBracketAreValid() {
 	fmt.Println(utils.CheckValidSigns("(]"))
 	fmt.Println(utils.CheckValidSigns("([])"))
 	fmt.Println(utils.CheckValidSigns("([)]"))
+}
+func removeTargetFromArray() {
+	nums := []int{3, 2, 2, 3}
+	utils.RemoveTargetFromArray(nums, 2)
 }
